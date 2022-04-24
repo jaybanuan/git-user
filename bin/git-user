@@ -1,5 +1,17 @@
 #!/bin/bash -e
 
+# First, ${HOME}/.git-user.yml must be created.
+#
+# e.g.
+#
+#   foo:
+#     name: foo
+#     email: foo@example.com
+#   bar:
+#     name: bar
+#     email: bar@example.com
+
+
 CONFIG_FILE=${HOME}/.git-user.yml
 ENTRY_NAME=$1
 
